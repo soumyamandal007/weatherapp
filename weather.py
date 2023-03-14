@@ -32,7 +32,7 @@ def getWeather():
       url = "http://api.openweathermap.org/data/2.5/weather"
       params = {
          "q": city, # replace with the city you want to get weather for
-         "appid": "5483fc1b43e79a03b9bd41c3bc94c2f8", # replace with your API key from OpenWeatherMap
+         "appid": "{API_KEY}", # replace with your API key from OpenWeatherMap
          "units": "metric" # units for temperature (metric for Celsius, imperial for Fahrenheit)
          }
    
